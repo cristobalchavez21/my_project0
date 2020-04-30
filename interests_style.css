@@ -62,12 +62,21 @@ th {
 @media (max-width: 686px) {
   .memes {
     width: 100%;
+    padding: 10px;
+    border-radius: 10px;
   }
 
   #to_top {
-    bottom: 10px;
+    bottom: 20px;
     right: 10px;
     position: fixed;
+  }
+
+  .meme {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #D60909;
+    border: 2px solid #48454D;
   }
 }
 

@@ -10,7 +10,6 @@ body{
 	padding: 30px;
 	border-radius: 15px;
 }
-
 .titulo{
 	color: $my_red;
 }
@@ -62,10 +61,18 @@ th {
 @media (max-width: $break2) {
 				.memes{
 					width: 100%;
+					padding: 10px;
+					border-radius: 10px;
 				}
 				#to_top{
-					bottom: 10px;
+					bottom: 20px;
 					right: 10px;
 					position: fixed;
+				}
+				.meme{
+					padding: 10px;
+					border-radius: 10px;
+					background-color: $my_red;
+					border: 2px solid $my_grey;
 				}
             }
