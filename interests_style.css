@@ -9,10 +9,12 @@ body {
 
 .titulo {
   color: #D60909;
+  padding: 10px;
 }
 
 .subtitle {
   color: white;
+  padding: 10px;
 }
 
 #to_top {
