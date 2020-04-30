@@ -61,7 +61,7 @@ th {
 @media (max-width: $break2) {
 				.memes{
 					width: 100%;
-					padding: 10px;
+					padding: 2px;
 					border-radius: 10px;
 				}
 				#to_top{
@@ -71,8 +71,9 @@ th {
 				}
 				.meme{
 					padding: 10px;
-					border-radius: 10px;
+					background-radius: 10px;
 					background-color: $my_red;
-					border: 2px solid $my_grey;
+					border-bottom: 10px solid $my_grey;
+					border-top: 10px solid $my_grey;
 				}
             }

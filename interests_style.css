@@ -62,7 +62,7 @@ th {
 @media (max-width: 686px) {
   .memes {
     width: 100%;
-    padding: 10px;
+    padding: 2px;
     border-radius: 10px;
   }
 
@@ -74,9 +74,10 @@ th {
 
   .meme {
     padding: 10px;
-    border-radius: 10px;
+    background-radius: 10px;
     background-color: #D60909;
-    border: 2px solid #48454D;
+    border-bottom: 10px solid #48454D;
+    border-top: 10px solid #48454D;
   }
 }
 
