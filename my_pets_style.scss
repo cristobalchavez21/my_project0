@@ -21,7 +21,7 @@ body {
 } 
 .cont{
 	div {
-		font-size: 1.5vw;
+		font-size: 16px;
 		@extend %sections_shape;
 		background-color: $color1;
 		border: 2px solid $bg_color;
