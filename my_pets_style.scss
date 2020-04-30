@@ -1,0 +1,64 @@
+$bg_color: white;
+$color1: #D60909;
+$color2: blue;
+$break1: 927px;
+$break2: 686px;
+
+%sections_shape{
+	padding: 30px;
+	border-radius: 15px;
+}
+body {
+	background-color: $bg_color;
+}
+//nesting example
+.header{
+	div {
+		@extend %sections_shape;
+		background-color: $color2;
+		border: 2px solid $bg_color;
+	}
+} 
+.cont{
+	div {
+		font-size: 1.5vw;
+		@extend %sections_shape;
+		background-color: $color1;
+		border: 2px solid $bg_color;
+		h3 {
+			color:red;
+			}
+	}
+} 
+.dog_pic {
+	width: 100%;
+}
+
+.titulo{
+	color: $color1;
+}
+.subtitle{
+	color: black;
+}
+
+#to_top {
+	bottom: 50px;
+	right: 50px;
+	position: fixed;
+}
+
+@media (max-width: $break1) {
+				.memes{
+					width: 70%;
+				}
+            }
+@media (max-width: $break2) {
+				.memes{
+					width: 100%;
+				}
+				#to_top{
+					bottom: 10px;
+					right: 10px;
+					position: fixed;
+				}
+            }

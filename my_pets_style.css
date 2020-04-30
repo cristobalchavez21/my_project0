@@ -1,0 +1,59 @@
+.cont div, .header div {
+  padding: 30px;
+  border-radius: 15px;
+}
+
+body {
+  background-color: white;
+}
+
+.header div {
+  background-color: blue;
+  border: 2px solid white;
+}
+
+.cont div {
+  font-size: 1.5vw;
+  background-color: #D60909;
+  border: 2px solid white;
+}
+.cont div h3 {
+  color: red;
+}
+
+.dog_pic {
+  width: 100%;
+}
+
+.titulo {
+  color: #D60909;
+}
+
+.subtitle {
+  color: black;
+}
+
+#to_top {
+  bottom: 50px;
+  right: 50px;
+  position: fixed;
+}
+
+@media (max-width: 927px) {
+  .memes {
+    width: 70%;
+  }
+}
+@media (max-width: 686px) {
+  .memes {
+    width: 100%;
+  }
+
+  #to_top {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+  }
+}
+
+/*# sourceMappingURL=my_pets_style.css.map */

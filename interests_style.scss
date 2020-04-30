@@ -1,0 +1,71 @@
+$my_grey: #48454D;
+$my_red: #D60909;
+$break1: 927px;
+$break2: 686px;
+body{
+	background-color: black;
+}
+//inheritance example
+%sections_shape{
+	padding: 30px;
+	border-radius: 15px;
+}
+
+.titulo{
+	color: $my_red;
+}
+.subtitle{
+	color: white;
+}
+
+#to_top {
+	bottom: 50px;
+	right: 50px;
+	position: fixed;
+}
+.memes{
+	@extend %sections_shape;
+	background-color: $my_grey;
+	border: 2px solid black;
+	width: 50%;
+}
+.meme{
+	@extend %sections_shape;
+	background-color: $my_red;
+	border: 10px solid $my_grey;
+}
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 100%;
+	position: center;
+	background-color: white;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+th {
+	background-color: lightgray;
+}
+.shrek_pic, .meme_pic {
+	width: 100%;
+}
+@media (max-width: $break1) {
+				.memes{
+					width: 70%;
+				}
+            }
+@media (max-width: $break2) {
+				.memes{
+					width: 100%;
+				}
+				#to_top{
+					bottom: 10px;
+					right: 10px;
+					position: fixed;
+				}
+            }
