@@ -1,0 +1,31 @@
+.row div{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.container>h4{
+	text-decoration: underline;
+}
+body {
+	background-image: url("pictures/chile4.jpg");
+	background-color: #cccccc;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+body >.container {
+	/* background-color: rgba(171,171,171,0.5); */
+	background-color: rgba(204,230,255,0.7);
+}
+
+.card {
+	background: transparent !important;
+}
+.card-body, .card-header{
+	background-color: rgba(255,255,255,0.7);
+}
+.btn {
+	text-decoration: underline;
+}

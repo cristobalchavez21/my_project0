@@ -1,0 +1,36 @@
+$break2: 686px;
+.dog_pic, .pic, .shrek_pic, .meme_pic {
+	width: 100%;
+}
+
+div~p{
+	text-decoration: underline;
+}
+
+h1,h4,h5 {color: #0000B3; }
+
+.titulo{
+	h1{
+		padding: 10px;
+		font-size: 50px;
+		font-weight:bold;
+	}
+}
+.subtitle{
+	h4{
+		padding: 10px;
+		font-weight: bold;
+	}
+}
+#to_top {
+	bottom: 50px;
+	right: 50px;
+	position: fixed;
+}
+@media (max-width: $break2) {
+				#to_top{
+					bottom: 20px;
+					right: 10px;
+					position: fixed;
+				}
+            }

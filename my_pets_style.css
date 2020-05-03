@@ -1,5 +1,5 @@
 .cont div, .header div {
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
 }
 
@@ -8,7 +8,6 @@
 }
 
 body {
-  background-color: rgba(204, 230, 255, 0.6);
   background-image: url("pictures/patio.jpg");
   background-color: #cccccc;
   height: 500px;
@@ -43,10 +42,6 @@ body {
   text-decoration: underline;
 }
 
-.dog_pic {
-  width: 100%;
-}
-
 .titulo {
   font-family: "Archivo Black";
   font-size: 22px;
@@ -62,29 +57,6 @@ body {
   color: black;
   padding: 10px;
   font-weight: bold;
-}
-
-#to_top {
-  bottom: 50px;
-  right: 50px;
-  position: fixed;
-}
-
-@media (max-width: 927px) {
-  .memes {
-    width: 70%;
-  }
-}
-@media (max-width: 686px) {
-  .memes {
-    width: 100%;
-  }
-
-  #to_top {
-    bottom: 10px;
-    right: 10px;
-    position: fixed;
-  }
 }
 
 /*# sourceMappingURL=my_pets_style.css.map */

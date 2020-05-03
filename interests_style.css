@@ -7,20 +7,12 @@ body {
   border-radius: 15px;
 }
 
-.titulo {
+h1 {
   color: #D60909;
-  padding: 10px;
 }
 
-.subtitle {
+h4 {
   color: white;
-  padding: 10px;
-}
-
-#to_top {
-  bottom: 50px;
-  right: 50px;
-  position: fixed;
 }
 
 .memes {
@@ -52,10 +44,6 @@ th {
   background-color: lightgray;
 }
 
-.shrek_pic, .meme_pic {
-  width: 100%;
-}
-
 @media (max-width: 927px) {
   .memes {
     width: 70%;
@@ -66,12 +54,6 @@ th {
     width: 100%;
     padding: 2px;
     border-radius: 10px;
-  }
-
-  #to_top {
-    bottom: 20px;
-    right: 10px;
-    position: fixed;
   }
 
   .meme {
